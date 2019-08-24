@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DB table fields to phpDOC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div>
+                <textarea id="createCode" class="sql" name="createCode"></textarea>
+            </div>
+            <div class="translate">
+                <button onclick="parserSQL.performTranslate('createCode', 'phpDOC');">Translate</button>
+            </div>
+            <div>
+                <textarea id="phpDOC" class="phpDoc" name="phpDOC"></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="parser.js"></script>
+</body>
+</html>

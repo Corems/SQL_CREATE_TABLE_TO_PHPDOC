@@ -1,0 +1,30 @@
+.container {
+    text-align: center;
+}
+
+.row {
+    width: 610px;
+    display: inline-block;
+}
+
+.translate {
+    text-align: right;
+    width: auto;
+}
+
+textarea {
+    width: 600px;
+    height: 250px;
+    border-radius: 2%;
+    font-size: 14px;
+}
+
+.phpDoc {
+    color: green;
+    background: black;
+}
+
+.sql {
+    color: darkred;
+    background: lightgray;
+}
