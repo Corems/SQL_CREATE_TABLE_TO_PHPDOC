@@ -1,0 +1,1 @@
+This is my "Bicycle" :D for translate sql code SHOW CREATE TABLE `bla_bla` to PHPdoc params and insert it to models classes
